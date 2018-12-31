@@ -19,27 +19,41 @@ body {
 /* all main pages */
 #logo {
     width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 16px;
+    float: left;
+}
+
+nav ul {
+    text-align: center;
+}
+
+#header {
+    margin: 30px;
 }
 
 #header nav ul {
-    text-align: center;
+    text-align: right;
 }
 
-#header nav ul li {
+nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 15px;
-    text-transform: uppercase;
-    font-family: helvetica, serif;
-    font-size: 11pt;
+    padding: 18px;
+    /*text-transform: uppercase;*/
+    font-family: 'ZCOOL QingKe HuangYou', 'helvetica', 'sans-serif';
+    font-size: 15pt;
     text-align: center;
 }
 
-#header nav ul li a {
-    color: black;
-    text-decoration: none;  
+nav ul li a {
+    color: #531d17;
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid #039dcd;
+}
+
+iframe {
+    display: block;
 }
