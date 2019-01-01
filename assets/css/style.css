@@ -1,11 +1,19 @@
 body {
-    background-color: azure;
+    background-color: burlywood;
+    margin:auto;
 }
 
 /* index page only */
-#splash {
+.full-screen {
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.half-screen {
+    width: 100%;
+    min-height: 50vh;
+    text-align: center;
 }
 
 #splash-logo {
@@ -13,25 +21,50 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12%;
+    margin-top: 10%;
+}
+
+#explore {
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: cadetblue;
+    text-decoration: none;
+    font-family: 'Staatliches', sans-serif;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0px 6px 16px gray; 
+}
+
+#explore:hover {
+    background-color: gray;
 }
 
 /* all main pages */
+#header {
+    text-align: center;
+}
+
 #logo {
-    width: 200px;
-    float: left;
+    width: 250px;
 }
 
 nav ul {
     text-align: center;
+    margin-top: 0;
 }
 
 #header {
-    margin: 30px;
+    margin-top: 30px;
+
 }
 
 #header nav ul {
-    text-align: right;
+    text-align: center;
+    height: 40px;
 }
 
 nav ul li {
@@ -39,7 +72,7 @@ nav ul li {
     display: inline-block;
     padding: 18px;
     /*text-transform: uppercase;*/
-    font-family: 'ZCOOL QingKe HuangYou', 'helvetica', 'sans-serif';
+    font-family: 'Staatliches', sans-serif;
     font-size: 15pt;
     text-align: center;
 }
@@ -54,6 +87,74 @@ nav ul li a:hover {
     border-bottom: 3px solid #039dcd;
 }
 
+.content {
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    background-color: white;
+    
+}
+
+/* menu styles*/
+.meal h1, h2, h3 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.meal h3 {
+    font-size: 14px;
+}
+
+.menu-section {
+    width: 50%;
+    margin: auto;
+}
+
+.menu-section ul {
+    padding: 0;
+}
+
+.item {
+    list-style-type: none;
+    margin-top: 5px;
+    border-bottom: thin dotted black;
+}
+
+.price {
+    float: right;
+}
+
+.description {
+    display: block;
+}
+
+/* google map */
 iframe {
     display: block;
+}
+
+#paul-and-rita {
+    float: right;
+}
+
+.float-right {
+    float: left;
+}
+
+#our-story {
+    background-color: white;
+    padding-top: 10%;
+}
+
+#menu {
+    background-image: url("../images/food.jpg");
+    background-size: cover;
+    padding-top: 10%;
+}
+
+#store {
+    background-image: url("../images/Casa-Waterfall-1920x950.png");
+    background-size: cover;
+    padding-top: 10%;
 }

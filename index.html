@@ -5,19 +5,48 @@
     <title>Casa De Benavidez</title>
     
     <!-- style sheets -->
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+
+    <!-- font Staatliches -->
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     
-    <!-- font ZCOOL QingKe HuangYou -->
-    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <!-- jQuerry -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <!-- javascript -->
     <script type="text/javascript" src="assets/javascript/javascript.js"></script>
 </head>
-<body>
-    <div id="splash">
+<body>    
+    <div class="full-screen">
         <!-- navbar code (see navbar.html) -->
         <div w3-include-html="navbar.html"></div>
         <img id="splash-logo" src="assets/images/logo.png">
+        <a id="explore" href="#our-story">Explore</a>
+    </div>
+    
+    <div id="our-story" class="half-screen">
+        <p>"Once upon a time, about 50 years ago, newlyweds Paul and Rita Benavidez began to work on a dream..."</p>
+        <a id="explore" href="story.html">Our Story</a>
+    </div>
+    
+    <div id="menu" class="full-screen">
+        Some Content Here
+        <a id="explore" href="menu.html">Menu</a>
+    </div>
+    
+    <div id="entertainment" class="half-screen">
+        Some Content Here
+        <a id="explore" href="entertainment.html">Entertainment</a>
+    </div>
+    
+    <div id="store" class="full-screen">
+        Some Content Here
+        <a id="explore" href="store.html">Online Store</a>
+    </div>
+    
+    <div id="contact" class="half-screen">
+        Some Content Here
+        <a id="explore" href="contact.html">Contact Us</a>
     </div>
     
     <script>includeHTML();</script>

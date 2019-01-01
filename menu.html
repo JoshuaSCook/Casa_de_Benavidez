@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Casa De Benavidez</title>
+    <title>Casa de Benavidez | Menu</title>
     
     <!-- style sheets -->
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
@@ -10,76 +10,137 @@
     <!-- font ZCOOL QingKe HuangYou -->
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
     
+    <!-- font Staatliches -->
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    
+    <!-- font Playfair -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    
     <!-- javascript -->
     <script type="text/javascript" src="assets/javascript/javascript.js"></script>
 </head>
 <body>
     <div id="header">
-        <!-- navbar code (see navbar.html) -->
         <a href="index.html"><img id="logo" src="assets/images/logo.png"></a>
+        <!-- navbar code (see navbar.html) -->
         <div w3-include-html="navbar.html"></div>
     </div>
     
     <!-- CONTENT -->
-    <div id="menu">
+    <div class="content">
         <div class="meal">
-           <div class="section">
+            <h1>DINNER</h1>
+            
+            <div class="menu-section">
                 <h2>Appetizers</h2>
                 <ul>
-                    <li>Guacamole & Chips<span class="price">8.99</span></li>
-                    <li>Chile con Queso<span class="price">7.59</span></li>
-                    <li>3 Beef and Bean Taquitos<span class="price">7.10</span></li>
-                    <li>3 Chicken Taquitos<span class="price">8.99</span></li>
-                    <li>Taquito Platter<span class="price">14.99</span></li>
-                    <li>Cheese Quesadillas<span class="price">8.59</span></li>
+                    <li class="item">Guacamole & Chips<span class="price">$8.99</span></li>
+                    <li class="item">Chile con Queso<span class="price">$7.59</span></li>
+                    <li class="item">3 Beef and Bean Taquitos<span class="price">$7.10</span></li>
+                    <li class="item">3 Chicken Taquitos<span class="price">$8.99</span></li>
+                    <li class="item">Taquito Platter<span class="price">$14.99</span></li>
+                    <li class="item">Cheese Quesadillas<span class="price">$8.59</span></li>
                 </ul>
             </div>
             
-            <div class="section">
+            <div class="menu-section">
                 <h2>Tostada Salads</h2>
-                <h3>Fried flour tortilla filled with beans, lettuce, tomatoes, sour cream, guacamole, jalapeños, salsa, black olives and chips</h3>
+                <h3>fried flour tortilla filled with beans, lettuce, tomatoes, sour cream, guacamole, jalapeños, salsa, black olives and chips</h3>
                 <ul>
-                    <li>Bean Salad<span class="price">11.79</span></li>
-                    <li>Chicken Salad<span class="price">13.50</span></li>
-                    <li>Beef Salad<span class="price">13.50</span></li>
+                    <li class="item">Bean Salad<span class="price">$11.79</span></li>
+                    <li class="item">Chicken Salad<span class="price">$13.50</span></li>
+                    <li class="item">Beef Salad<span class="price">$13.50</span></li>
                 </ul>
             </div>
             
-            <div class="section">
+            <div class="menu-section">
                 <h2>Nachos</h2>
-                <h3>Served with corn chips</h3>
+                <h3>served with corn chips</h3>
                 <ul>
-                    <li>No. 1 Nachos<span class="description">Beef with beans, lettuce, tomatoes, jalapeños, and chile con queso</span><span class="price">11.99</span></li>
-                    <li>Deluxe Nachos<span class="description">Beef with beans, lettuce, tomatoes, jalapeños, and chile con queso, sour cream and guacamole</span><span class="price">13.99</span></li>
+                    <li class="item">No. 1 Nachos<span class="price">$11.99</span><span class="description">beef with beans, lettuce, tomatoes, jalapeños, and chile con queso</span></li>
+                    <li class="item">Deluxe Nachos<span class="price">$13.99</span><span class="description">beef with beans, lettuce, tomatoes, jalapeños, and chile con queso, sour cream and guacamole</span></li>
                 </ul>
             </div>
             
-            <div class="section">
+            <div class="menu-section">
                 <h2>Burritos & Stuffed Sopaipillas</h2>
-                <h3>Served with red or green chile & rice, beans or papitas</h3>
+                <h3>served with red or green chile & rice, beans or papitas</h3>
                 <ul>
-                    <li>Chicharones<span class="price">12.29</span></li>
-                    <li>Chicken<span class="price">12.59</span></li>
-                    <li>Carne Adovada<span class="price">12.59</span></li>
-                    <li>Bean<span class="price">10.99</span></li>
-                    <li>Chunky Beef<span class="price">12.59</span></li>
-                    <li>Ground Beef<span class="price">12.29</span></li>
-                    <li>Combo<span class="price">12.29</span></li>
+                    <li class="item">Chicharones<span class="price">$12.29</span></li>
+                    <li class="item">Chicken<span class="price">$12.59</span></li>
+                    <li class="item">Carne Adovada<span class="price">$12.59</span></li>
+                    <li class="item">Bean<span class="price">$10.99</span></li>
+                    <li class="item">Chunky Beef<span class="price">$12.59</span></li>
+                    <li class="item">Ground Beef<span class="price">$12.29</span></li>
+                    <li class="item">Combo<span class="price">$12.29</span></li>
                 </ul>
             </div>
             
-            <div class="section">
+            <div class="menu-section">
                 <h2>Chimichangas</h2>
-                <h3>Served with red or green chile & rice, beans or papitas & sopaipillas</h3>
+                <h3>served with red or green chile & rice, beans or papitas & sopaipilla</h3>
                 <ul>
-                    <li>Bean<span class="price">11.29</span></li>
-                    <li>Chicken<span class="price">12.89</span></li>
-                    <li>Beef<span class="price">13.10</span></li>
-                    <li>Carne Adovada<span class="price">13.59</span></li>
+                    <li class="item">Bean<span class="price">$11.29</span></li>
+                    <li class="item">Chicken<span class="price">$12.89</span></li>
+                    <li class="item">Beef<span class="price">$13.10</span></li>
+                    <li class="item">Carne Adovada<span class="price">$13.59</span></li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h2>Enchilladas</h2>
+                <h3>served with red or green chile & rice, beans or papitas & sopaipilla</h3>
+                <ul>
+                    <li class="item">2 Cheese<span class="price">$11.99</span></li>
+                    <li class="item">2 Chicken<span class="price">$12.59</span></li>
+                    <li class="item">2 Chuncky Beef<span class="price">$11.89</span></li>
+                    <li class="item">2 Ground Beef<span class="price">$11.99</span></li>
+                    <li class="item">2 Carne Adovada<span class="price">$11.99</span></li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h2>Combos</h2>
+                <h3>served with rice, beans, special rib & sopaipilla</h3>
+                <ul>
+                    <li class="item">No. 1<span class="price">$16.99</span><span class="description">tamale, cheese enchillada, chile rellano & taco</span></li>
+                    <li class="item">No. 2<span class="price">$13.99</span><span class="description">cheese enchillada & tamale</span></li>
+                    <li class="item">No. 3<span class="price">$14.29</span><span class="description">cheese enchillada & chile rellano</span></li>
+                    <li class="item">No. 4<span class="price">$13.99</span><span class="description">cheese enchillada & taco</span></li>
                 </ul>
             </div>
         
         </div> <!-- end meal -->
+        
+        <div class="meal">
+            <h1>EXTRAS</h1>
+            
+            <div class="menu-section">
+                <h2>Desserts</h2>
+                <ul>
+                    <li class="item">German Chocolate Cake<span class="price">$4.10</span></li>
+                    <li class="item">Carrot Cake<span class="price">$4.10</span></li>
+                    <li class="item">Fried Ice Cream<span class="price">$4.10</span></li>
+                    <li class="item">Flan<span class="price">$3.99</span></li>
+                    <li class="item">Natillas<span class="price">$3.99</span></li>
+                    <li class="item">Brownies<span class="price">$4.10</span></li>
+                    <li class="item">Sweet Roll<span class="price">$3.80</span></li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h2>Drinks</h2>
+                <ul>
+                    <li class="item">Coffee<span class="price">$2.75</span></li>
+                    <li class="item">Iced Tea<span class="price">$2.99</span></li>
+                    <li class="item">Hot Tea<span class="price">$3.10</span></li>
+                    <li class="item">Hot Chocolate<span class="price">$3.59</span></li>
+                    <li class="item">Milk<span class="price">lg $3.59</span><span class="price">sm $2.99</span></li>
+                    <li class="item">Juice<span class="price">lg $3.10</span><span class="price">sm $2.59</span></li>
+                    <li class="item">Soft Drinks<span class="price">$3.10</span></li>
+                </ul>
+            </div>
+        </div>
     </div> <!-- end menu -->
     
     <script>includeHTML();</script>
