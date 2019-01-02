@@ -1,8 +1,3 @@
-body {
-    background-color: burlywood;
-    margin:auto;
-}
-
 /* index page only */
 .full-screen {
     width: 100%;
@@ -25,7 +20,7 @@ body {
 }
 
 #explore {
-    width: 150px;
+    width: 180px;
     display: block;
     margin: auto;
     margin-top: 50px;
@@ -34,27 +29,68 @@ body {
     background-color: cadetblue;
     text-decoration: none;
     font-family: 'Staatliches', sans-serif;
+    font-size: 18px;
     color: white;
-    border-radius: 3px;
+    border-radius: 25px;%;
     box-shadow: 0px 6px 16px gray; 
+}
+
+#menu {
+    background-image: url("../images/food.jpg");
+    background-size: cover;
+    padding-top: 20%;
+}
+
+.quote {
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
 }
 
 #explore:hover {
     background-color: gray;
 }
 
-/* all main pages */
+#our-story {
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 30px;
+}
+
+#sopa-burger {
+    background-image: url("../images/rfl_10978-1400x933_c.jpg");
+    background-size: cover;
+    padding-top: 10%;
+}
+
+#store {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#store img {
+    width: 20%;
+    margin: 40px;
+}
+
+#store p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* main pages */
+body {
+    background-color: burlywood;
+    margin:auto;
+}
+
+
 #header {
     text-align: center;
 }
 
 #logo {
-    width: 250px;
-}
-
-nav ul {
-    text-align: center;
-    margin-top: 0;
+    width: 350px;
 }
 
 #header {
@@ -62,18 +98,19 @@ nav ul {
 
 }
 
-#header nav ul {
+nav ul {
     text-align: center;
     height: 40px;
+    padding: 0;
 }
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 18px;
-    /*text-transform: uppercase;*/
-    font-family: 'Staatliches', sans-serif;
-    font-size: 15pt;
+    padding: 16px;
+    text-transform: uppercase;
+    font-family: "Times New Roman", serif;
+    font-size: 14pt;
     text-align: center;
 }
 
@@ -84,11 +121,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    border-bottom: 3px solid #039dcd;
+    border-bottom: 4px solid #039dcd;
 }
 
 .content {
-    padding-top: 100px;
+    padding: 100px;
     padding-left: 10%;
     padding-right: 10%;
     margin: auto;
@@ -96,14 +133,34 @@ nav ul li a:hover {
     
 }
 
+h1 {
+    font-size: 44px;
+    width: 35%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: thick dotted black;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
 /* menu styles*/
+.content-menu {
+    padding-top: 20px;
+}
+
 .meal h1, h2, h3 {
     text-align: center;
     font-family: 'Playfair Display', serif;
-}
-
-.meal h3 {
-    font-size: 14px;
+    color: #531d17; 
 }
 
 .menu-section {
@@ -113,6 +170,7 @@ nav ul li a:hover {
 
 .menu-section ul {
     padding: 0;
+    font-size: 24px
 }
 
 .item {
@@ -129,11 +187,7 @@ nav ul li a:hover {
     display: block;
 }
 
-/* google map */
-iframe {
-    display: block;
-}
-
+/* story page */
 #paul-and-rita {
     float: right;
 }
@@ -142,19 +196,7 @@ iframe {
     float: left;
 }
 
-#our-story {
-    background-color: white;
-    padding-top: 10%;
-}
-
-#menu {
-    background-image: url("../images/food.jpg");
-    background-size: cover;
-    padding-top: 10%;
-}
-
-#store {
-    background-image: url("../images/Casa-Waterfall-1920x950.png");
-    background-size: cover;
-    padding-top: 10%;
+/* google map */
+iframe {
+    display: block;
 }

@@ -2,19 +2,19 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Casa de Benavidez | Menu</title>
+    <title>Casa de Benavidez | Our Story</title>
     
     <!-- style sheets -->
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
-    
-    <!-- font ZCOOL QingKe HuangYou -->
-    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
     
     <!-- font Staatliches -->
     <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     
     <!-- font Playfair -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <!-- javascript -->
     <script type="text/javascript" src="assets/javascript/javascript.js"></script>
@@ -23,11 +23,11 @@
     <div id="header">
         <a href="index.html"><img id="logo" src="assets/images/logo.png"></a>
         <!-- navbar code (see navbar.html) -->
-        <div w3-include-html="navbar.html"></div>
+        <div w3-include-html="assets/html/navbar.html"></div>
     </div>
     
     <!-- CONTENT -->
-    <div class="content">
+    <div class="content content-menu">
         <div class="meal">
             <h1>DINNER</h1>
             
@@ -45,7 +45,7 @@
             
             <div class="menu-section">
                 <h2>Tostada Salads</h2>
-                <h3>fried flour tortilla filled with beans, lettuce, tomatoes, sour cream, guacamole, jalapeños, salsa, black olives and chips</h3>
+                <h3>fried flour tortilla filled with beans, lettuce, tomatoes, sour cream, guacamole, jalapeños, salsa, black olives & chips</h3>
                 <ul>
                     <li class="item">Bean Salad<span class="price">$11.79</span></li>
                     <li class="item">Chicken Salad<span class="price">$13.50</span></li>
@@ -57,8 +57,10 @@
                 <h2>Nachos</h2>
                 <h3>served with corn chips</h3>
                 <ul>
-                    <li class="item">No. 1 Nachos<span class="price">$11.99</span><span class="description">beef with beans, lettuce, tomatoes, jalapeños, and chile con queso</span></li>
-                    <li class="item">Deluxe Nachos<span class="price">$13.99</span><span class="description">beef with beans, lettuce, tomatoes, jalapeños, and chile con queso, sour cream and guacamole</span></li>
+                    <li class="item">No. 1 Nachos<span class="price">$11.99</span></li>
+                    <li class="description">beef with beans, lettuce, tomatoes, jalapeños, & chile con queso</li>
+                    <li class="item">Deluxe Nachos<span class="price">$13.99</span></li>
+                    <li class="description">beef with beans, lettuce, tomatoes, jalapeños, and chile con queso, sour cream & guacamole</li>
                 </ul>
             </div>
             
@@ -103,10 +105,14 @@
                 <h2>Combos</h2>
                 <h3>served with rice, beans, special rib & sopaipilla</h3>
                 <ul>
-                    <li class="item">No. 1<span class="price">$16.99</span><span class="description">tamale, cheese enchillada, chile rellano & taco</span></li>
-                    <li class="item">No. 2<span class="price">$13.99</span><span class="description">cheese enchillada & tamale</span></li>
-                    <li class="item">No. 3<span class="price">$14.29</span><span class="description">cheese enchillada & chile rellano</span></li>
-                    <li class="item">No. 4<span class="price">$13.99</span><span class="description">cheese enchillada & taco</span></li>
+                    <li class="item">No. 1<span class="price">$16.99</span></li>
+                    <li class="description">tamale, cheese enchillada, chile rellano & taco</li>
+                    <li class="item">No. 2<span class="price">$13.99</span></li>
+                    <li class="description">cheese enchillada & tamale</li>
+                    <li class="item">No. 3<span class="price">$14.29</span></li>
+                    <li class="description">cheese enchillada & chile rellano</li>
+                    <li class="item">No. 4<span class="price">$13.99</span></li>
+                    <li class="description">cheese enchillada & taco</li>
                 </ul>
             </div>
         
@@ -135,13 +141,16 @@
                     <li class="item">Iced Tea<span class="price">$2.99</span></li>
                     <li class="item">Hot Tea<span class="price">$3.10</span></li>
                     <li class="item">Hot Chocolate<span class="price">$3.59</span></li>
-                    <li class="item">Milk<span class="price">lg $3.59</span><span class="price">sm $2.99</span></li>
-                    <li class="item">Juice<span class="price">lg $3.10</span><span class="price">sm $2.59</span></li>
+                    <li class="item">Milk<span class="price">sm $2.99 lg&nbsp;&nbsp;&nbsp;$3.59</span></li>
+                    <li class="item">Juice<span class="price">sm $2.59 lg&nbsp;&nbsp;&nbsp;$3.10</span></li>
                     <li class="item">Soft Drinks<span class="price">$3.10</span></li>
                 </ul>
             </div>
         </div>
     </div> <!-- end menu -->
+    
+    <!-- footer code (see footer.html) -->
+    <div w3-include-html="assets/html/footer.html"></div>
     
     <script>includeHTML();</script>
 </body>

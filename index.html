@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Casa De Benavidez</title>
+    <title>Casa de Benavidez</title>
     
     <!-- style sheets -->
     <link type="text/css" rel="stylesheet" href="assets/css/style.css">
@@ -10,7 +10,10 @@
     <!-- font Staatliches -->
     <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     
-    <!-- jQuerry -->
+    <!-- font Playfair -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <!-- javascript -->
@@ -19,35 +22,36 @@
 <body>    
     <div class="full-screen">
         <!-- navbar code (see navbar.html) -->
-        <div w3-include-html="navbar.html"></div>
+        <div w3-include-html="assets/html/navbar.html"></div>
         <img id="splash-logo" src="assets/images/logo.png">
-        <a id="explore" href="#our-story">Explore</a>
-    </div>
-    
-    <div id="our-story" class="half-screen">
-        <p>"Once upon a time, about 50 years ago, newlyweds Paul and Rita Benavidez began to work on a dream..."</p>
-        <a id="explore" href="story.html">Our Story</a>
+        <a id="explore" href="#menu">Explore</a>
     </div>
     
     <div id="menu" class="full-screen">
-        Some Content Here
-        <a id="explore" href="menu.html">Menu</a>
+        <p class="quote">"Best New Mexican food in Albuquerque!</p>
+        <a id="explore" href="menu.html">Check Out Our Menu</a>
     </div>
     
-    <div id="entertainment" class="half-screen">
-        Some Content Here
-        <a id="explore" href="entertainment.html">Entertainment</a>
+    <div id="our-story" class="full-screen">
+        <img src="assets/images/Bldg_against_Sandia_Mtns-585x280.jpg">
+        <p class="quote">"Once upon a time, about 50 years ago,<br>newlyweds Paul and Rita Benavidez began to work on a dream..."</p>
+        <p>The Benavidez family and employees at Casa de Benavidez offer excellent food in a delightful and peaceful atmosphere. Here you will find traditional Mexican and New Mexican food in the surroundings of a beautiful garden and waterfall. The full-service New Mexican restaurant also provides a smaller dining area for fast carryout meals complete with a patio.</p>
+        <a id="explore" href="story.html">Read More...</a>
+    </div>
+    
+    <div id="sopa-burger" class="full-screen">
+        <p class="quote">"World Famous Sopaipilla Burger"</p>
     </div>
     
     <div id="store" class="full-screen">
-        Some Content Here
-        <a id="explore" href="store.html">Online Store</a>
+        <img src="assets/images/Casa-Fire-Roasted-Salsa-957x1024.png">
+        <img src="assets/images/giftcard.png">
+        <p>You can now purchase your favorite Casa de Benavidez Salsas and Sauces. Choose from mild salsa, hot salsa, red chile sauce, green chile sauce, BBQ sauce, or even get a combo pack. You can also purchase Casa de Benavidez gift cards.</p>
+        <a id="explore" href="store.html">Shop Now!</a>
     </div>
     
-    <div id="contact" class="half-screen">
-        Some Content Here
-        <a id="explore" href="contact.html">Contact Us</a>
-    </div>
+    <!-- footer code (see footer.html) -->
+    <div w3-include-html="assets/html/footer.html"></div>
     
     <script>includeHTML();</script>
 </body>
